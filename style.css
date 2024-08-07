@@ -1,0 +1,100 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(90, 85, 46);
+    display: flex;
+    justify-content: center;
+    
+}
+
+#calculator {
+    background-color: rgb(170, 170, 169);
+    height: 600px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+#nameBox {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    padding: 7px;
+    padding-bottom: 2.5%;
+}
+
+#name {
+    width: 35%;
+}
+
+#sunlight_recharge {
+    border: 2px solid black;
+    height: 90%;
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(60, 51, 51);
+    border-radius: 10px;
+}
+
+.sunBox {
+    border: 2px solid rgb(126, 121, 121);
+    height: 100%;
+    width: 20%;
+}
+
+#screen {
+    height: 15%;
+    width: 96%;
+    border: 2px solid black;
+    background-color: rgb(124, 148, 124);
+    border-radius: 10px;
+    font-size: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+}
+
+#digitScreen {
+    width: 93%;
+    text-align: right;
+}
+#button {
+    height: 70%;
+    width: 100%;
+    margin-top: 10px;
+}
+#buttonRow {
+    height: 23%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+button {
+    height: 80%;
+    width: 17%;
+    border-radius: 20px;
+    font-size: 40px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+#del, #ac {
+    background-color: rgb(252, 145, 14);
+}
+
+@media (max-width: 500px) {
+    button {
+        font-size: 30px;
+    }
+}
